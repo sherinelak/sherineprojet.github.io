@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcule ton IMC !</title>
+    <link rel="stylesheet" type="text/css" href="IMC.css">
+    <link rel="stylesheet" href="acceuil.css">
+</head>
+
+<body>
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Accueil</a></li>
+            <li>
+                <a href="#">Il était une fois...</a>
+                <ul class="submenu">
+                    <li><a href="quiz_respiration.html" target="_blank">La respiration</a></li>
+                    <li><a href="quiz_cerveau.html" target="_blank">Le cerveau</a></li>
+                    <li><a href="quiz_digestion.html" target="_blank">La digestion</a></li>
+                </ul>
+            </li>
+            <li><a href="IMC.html" target="_blank">Calcul IMC</a></li>
+            <li><a href="contact.html" target="_blank">Contact</a></li>
+        </ul>
+    </nav>
+
+    <script src="acceuil.js"></script>
+
+    <header>
+        <h1>Calcule ton IMC !</h1>
+    </header>
+
+    <div class="conteneur">
+        <p>Entrez votre Taille (en mètres):</p>
+        <input id="taille"></input>
+
+        <p>Entrez votre Poids (en Kilogrammes):</p>
+        <input id="masse"></input>
+        <br>
+        <button onclick="calcul()">Valider</button>
+
+        <div>
+            <p id="résultat"></p>
+        </div>
+    </div>
+
+    <script src="IMC.js"></script>
+</body>
+
+</html>
